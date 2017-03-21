@@ -7,7 +7,7 @@
 
 [c9](https://ide.c9.io/grit0614/webprogramming-test)
 
-실습자료
+## 실습자료
   - 170307(화) - 실습 1일차
     - [강의자료](http://home.konkuk.ac.kr/~wolfirea/files/170307_web_ch2.pdf)
     - [website](https://webprogramming-test-grit0614.c9users.io/170307)
@@ -42,5 +42,5 @@
 
 ------
 
-과제
+## 과제
   - [과제1 - 자기소개](https://github.com/grit0614/WebProgramming/blob/master/app/views/hello/assignment1.erb)
