@@ -40,6 +40,12 @@
     - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/mycss.css)
     - 지난주 목요일에 작성한 파일 footer, body 완성
 
+  - 170321(목) - 실습 6일차
+    - [강의자료](http://home.konkuk.ac.kr/~wolfirea/files/170323_web_ch7.pdf)
+    - [website](https://webprogramming-test-grit0614.c9users.io/170323)
+    - [html](https://github.com/grit0614/WebProgramming/blob/master/app/views/hello/170323.erb)
+    - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/mycss.css)
+    - 
 ------
 
 ## 과제

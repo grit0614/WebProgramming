@@ -318,3 +318,109 @@ a.brand:after {
   color: #768398;
 }
 /**/
+
+
+
+/*중복 class 사용*/
+.striped > tbody tr:nth-child(2n+1) { background-color: #eeeeee; }
+
+/*상단 광고바 css*/
+.topAD {
+  background-color: white;
+  height: 85px;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 24px;
+  
+  position: fixed;
+  
+  /*스크롤바도 width영역에 들어가서 오른쪽이 잘림*/
+  /*width: 100%;*/
+  
+  /*대신 top,left,right옵션으로 꽉 채울 수 있음*/
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topAD p {
+  color: #999999;
+  font-size: 1em;
+  line-height: 85px;
+}
+
+.topAD p a {
+  color: #31a8f0;
+}
+
+a.gotit {
+  display: inline-block;
+  height: 36px;
+  width: 95px;
+  background-color: #f1d600;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 36px;
+  
+  /*위치조정*/
+  position: absolute;
+  
+  /*방법 1. div.topAD기준 세로로 50%에서 시작. 버튼의 height가 36px이니 18만큼 위로 올려준다*/
+  /*top: calc(50% - 18px);*/
+
+  
+  /*방법 2. translateY를 이용*/
+  top: 50%;
+  transform: translateY(-50%);
+  
+  right: 24px;
+}
+
+/*전면광고*/
+.advert {
+  position: fixed; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top: calc(50% - 100px);
+  width: 400px;
+  height: 200px;
+  background-color: white;
+}
+
+/*배경*/
+.bg {
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
+  width:100%;
+  background-color: rgba(0,0,255,0.3);
+  position: fixed;
+}
+
+.exit {
+  float: right;
+  margin-right: 25px;
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+}
+
+/*radio button 활용*/
+input[type="radio"] { display: none; }
+
+input[type="radio"] + label:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 8px;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+input[type="radio"]:checked + label:before { background-color: green; }

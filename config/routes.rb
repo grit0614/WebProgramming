@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/170314' => 'hello#170314'
   get '/170316' => 'hello#170316'
   get '/170321' => 'hello#170321'
+  get '/170323' => 'hello#170323'
   get '/assignment' => 'hello#assignment1'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
