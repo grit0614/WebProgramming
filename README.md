@@ -45,7 +45,8 @@
     - [website](https://webprogramming-test-grit0614.c9users.io/170323)
     - [html](https://github.com/grit0614/WebProgramming/blob/master/app/views/hello/170323.erb)
     - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/mycss.css)
-    - 
+    - 상단/전면광고, custom radio button 삽입
+    
 ------
 
 ## 과제
