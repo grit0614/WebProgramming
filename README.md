@@ -58,3 +58,5 @@
 
 ## 과제
   - [과제1 - 자기소개](https://github.com/grit0614/WebProgramming/blob/master/app/views/hello/assignment1.erb)
+  - [과제2 - 웹사이트 모방](https://github.com/grit0614/homework2/blob/master/index.html)
+    - [css](https://github.com/grit0614/homework2/blob/master/src/css/layout.css)
