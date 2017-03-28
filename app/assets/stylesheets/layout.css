@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#nav { 
+  background-color: rgba(0,0,255,0.25); 
+  float: left;
+  width: 25%;
+  height: 300px;
+}
+
+#content1 { 
+  background-color: rgba(0,0,255,0.50); 
+  float: right;
+  width: 75%;
+  height: 100px;
+}
+
+#content2 { 
+  background-color: rgba(0,0,255,0.75); 
+  float: right;
+  width: 75%;
+  height: 100px;
+}
+
+#content3 { 
+  background-color: rgba(0,0,255,1); 
+  float: right;
+  width: 75%;
+  height: 100px;
+}
+
+/*보는 화면*/
+@media screen {
+  body {
+    background-color: green;
+  }
+}
+
+/*인쇄하는 화면 - Chrome기준 옵션 -> 배경그래픽 활성화하면 확인 가능*/
+@media print {
+  body {
+    background-color: red;
+  }
+}
+
+/*일반적인 device들 pixel size에 따른 media query 조절*/
+/*모바일 : width <= 600px*/
+/*태블릿 : 600 < width <= 991px*/
+/*데스크탑: 992 < width <= 1200px*/
+/*대형화면: 1200 < width*/
+
+/*모바일*/
+@media screen and (max-width: 600px) {
+  body { background-color: red; }  
+  
+  #nav {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #content1 {
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #content2 {
+    background-color: skyblue;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #content3 {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+  }
+  
+  /*실습#5*/
+  a:before { content : ""; }
+}
+
+/*태블릿*/
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  body { background-color: green; }
+  
+  #nav {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+  }
+  
+  #content1 {
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+  }
+  
+  #content2 {
+    background-color: rgba(0,0,255,0.5);
+    width: 50%;
+    height: 100px;
+  }
+  
+  #content3 {
+    background-color: rgba(0,0,255,0.75);
+    width: 100%;
+    height: 100px;
+  }
+  
+  /*실습 #5*/
+  a:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 1px solid black;
+    vertical-align: middle;
+    box-sizing: border-box; 
+  }
+}
+
+/*데스크탑*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body { background-color: orange; }
+  
+  #nav {
+    background-color: green;
+    float: left;
+    width: 25%;
+    height: 300px;
+  }
+  #content1 {
+    background-color: blue;
+    float: right;
+    width: 75%;
+    height: 100px;
+  }
+  
+  #content2 {
+    background-color: rgba(0,0,255,0.5);
+    float: right;
+    width: 75%;
+    height: 100px;
+  }
+  
+  #content3 {
+    background-color: rgba(0,0,255,0.75);
+    float: right;
+    width: 75%;
+    height: 100px;
+  }
+}
+
+/*대형화면*/
+@media screen and (min-width: 1200px) {
+  body { background-color: purple; }
+  
+  /*실습 #5*/
+  a:after {
+    content: "("attr(data-email)")";
+    font-style: italic;
+  }
+}
+
+/*실습#5*/
+li { list-style-type: none; }
+a { text-decoration: none; }
+/*a:before { content: "email: "; }*/

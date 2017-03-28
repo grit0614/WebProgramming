@@ -47,6 +47,13 @@
     - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/mycss.css)
     - 상단/전면광고, custom radio button 삽입
     
+  - 170328(화) - 실습 7일차
+    - [강의자료](http://home.konkuk.ac.kr/~wolfirea/files/170328_web_ch8.pdf)
+    - [website](https://webprogramming-test-grit0614.c9users.io/170328)
+    - [html](https://github.com/grit0614/WebProgramming/blob/master/app/views/hello/170328.erb)
+    - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/layout.css)
+    - 반응협 웹 레이아웃(viewport, @media) 실습
+    
 ------
 
 ## 과제
