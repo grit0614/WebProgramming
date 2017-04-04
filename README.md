@@ -54,6 +54,17 @@
     - [css](https://github.com/grit0614/WebProgramming/blob/master/app/assets/stylesheets/layout.css)
     - 반응협 웹 레이아웃(viewport, @media) 실습
     
+  - 170330(목) - 실습 8일차
+    - [강의자료](http://home.konkuk.ac.kr/~wolfirea/files/170330_web_ch9.pdf)
+    - [website](https://webprogramming-lecture-grit0614.c9users.io/170330/170330.html)
+    - [html](https://github.com/grit0614/WebProgramming2/blob/master/170330/170330.html)
+    - bootstrap grid container 실습
+    
+  - 170404(화) - 실습 9일차
+    - [강의자료](http://home.konkuk.ac.kr/~wolfirea/files/170404_web_ch10.pdf)
+    - [website](https://webprogramming-lecture-grit0614.c9users.io/170404/index.html)
+    - [html](https://github.com/grit0614/WebProgramming2/blob/master/170404/index.html)
+    - bootstrap grid container 실습
 ------
 
 ## 과제
